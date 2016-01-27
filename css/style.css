@@ -1,0 +1,27 @@
+body {
+  font-family: "PT Sans Narrow", "Tahoma", sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.main-menu li {
+  font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.catalog-filter h2 {
+  font-size: 24px;
+}
+
+.item-description {
+  line-height: 24px;
+}
+
+.equipment-title {
+  font-size: 24px;
+}
