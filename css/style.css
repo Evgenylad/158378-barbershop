@@ -140,6 +140,15 @@ fieldset {
   vertical-align: top;
 }
 
+.catalog-item span {
+  display: block;
+}
+
+.item-buy,
+.item-price {
+  display: inline-block;
+}
+
 .pagination {
   float: right;
   width: 700px;
