@@ -39,3 +39,50 @@ h1 {
 .btn {
   line-height: 16px;
 }
+
+/* Сетка страниц */
+
+.main-header {
+  background: #000000;
+}
+
+.container {
+  width: 940px;
+  min-height: 70px;
+}
+
+.inner-page-logo {
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 40px;
+}
+
+.main-menu {
+  width: 540px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 40px;
+}
+
+.user-block {
+  width: 140px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.main-menu li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 40px;
+}
