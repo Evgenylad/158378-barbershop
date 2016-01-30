@@ -35,7 +35,7 @@
 
     </header>
 
-    <main class="container">
+    <main class="container clearfix">
       <h1>Средства для ухода</h1>
       <ul class="breadcrumbs">
         <li><a href="#">Главная</a></li>
@@ -48,13 +48,14 @@
         <form action="/" method="post">
           <fieldset>
             <legend>Производители:</legend>
-            <input class="filter-form" id="baxter" type="checkbox" checked> <label for="baxter">Baxter of california</label>
+            <input class="filter-form" id="baxter" type="checkbox" checked> Baxter of california</label>
             <input class="filter-form" id="natty" type="checkbox"> <label for="natty">Mr Natty</label>
             <input class="filter-form" id="suavecito" type="checkbox" checked> <label for="suavecito">Suavecito</label>
             <input class="filter-form" id="malin-goetz" type="checkbox"> <label for="malin-goetz">Malin+Goetz</label>
             <input class="filter-form" id="murrays" type="checkbox"> <label for="murrays">Murray's</label>
             <input class="filter-form" id="american-crew" type="checkbox" checked> <label for="american-crew">American Crew</label>
           </fieldset>
+          <fieldset>
             <legend>Группы товаров:</legend>
             <input class="filter-form" id="shaving_items" type="radio" name="radio"><label for="shaving_items">Бритвенные принадлежности</label>
             <input class="filter-form" id="care_items" type="radio" name="radio" checked><label for="care_items">Средства для ухода</label>
@@ -68,9 +69,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/baxter-travel-item.jpg" width="220px" height="165px" alt="Набор для путешествий Baxter of California"></a>
-          <h1>Набор для путешествий
+          <a href="#">
+            <h1>Набор для путешествий
             <span>"BAXTER OF CALIFORNIA"</span>
-          </h1>
+            </h1>
+          </a>
           <div>
             <div class="item-price">2900 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -79,9 +82,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/baxter-cond-item.jpg" width="220px" height="165px" alt="Увлажняющий кондиционер Baxter of California"></a>
-          <h1>Увлажняющий кондиционер
+          <a href="#">
+            <h1>Увлажняющий кондиционер
             <span>"BAXTER OF CALIFORNIA"</span>
-          </h1>
+            </h1>
+          </a>
           <div>
             <div class="item-price">750 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -90,9 +95,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/suavecito-gel-item.jpg" width="220px" height="165px" alt="Гель для волос SUAVECITO"></a>
-          <h1>Гель для волос
-            <span>"SUAVECITO"</span>
-          </h1>
+          <a href="#">
+            <h1>Гель для волос
+              <span>"SUAVECITO"</span>
+            </h1>
+          </a>
           <div>
             <div class="item-price">290 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -101,9 +108,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/american-crew-clay-item.jpg" width="220px" height="165px" alt="Глина для укладки волос AMERICAN CREW"></a>
-          <h1>Глина для укладки волос
+          <a href="#">
+            <h1>Глина для укладки волос
             <span>"AMERICAN CREW"</span>
-          </h1>
+            </h1>
+          </a>
           <div>
             <div class="item-price">500 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -112,9 +121,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/american-crew-gel-item.jpg" width="220px" height="165px" alt="Гель для волос AMERICAN CREW"></a>
-          <h1>Гель для волос
+          <a href="#">
+            <h1>Гель для волос
             <span>"AMERICAN CREW"</span>
-          </h1>
+            </h1>
+          </a>
           <div>
             <div class="item-price">300 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -123,9 +134,11 @@
 
         <article class="catalog-item">
           <a href="#"> <img src="img/baxter-shaving-item.jpg" width="220px" height="165px" alt="Набор для бритья BAXTER OF CALIFORNIA"></a>
-          <h1>Набор для бритья
+          <a href="#">
+            <h1>Набор для бритья
             <span>"BAXTER OF CALIFORNIA"</span>
-          </h1>
+            </h1>
+          </a>
           <div>
             <div class="item-price">3900 руб.</div>
             <a href="#" class="btn item-buy">Купить</a>
@@ -141,16 +154,16 @@
       </div>
     </main>
 
-    <footer class="main-footer">
+    <footer class="main-footer clearfix">
       <div class="container">
-        <section class="main-footer-contacts">
+        <section class="footer-contacts">
           Барбершоп «Бородинский»<br>
           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
           <a href="#">Как нас найти?</a><br>
           Телефон: +7 (812) 666-02-66
         </section>
 
-        <section class="main-footer-social">
+        <section class="footer-social">
           <p>Давайте дружить!</p>
           <a class="btn social-btn social-btn-vk" href="#">Вконтакте</a>
           <a class="btn social-btn social-btn-fb" href="#">Фейсбук</a>
