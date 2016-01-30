@@ -44,6 +44,8 @@ h1 {
 
 .main-header {
   background: #000000;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 .container {
@@ -85,4 +87,8 @@ h1 {
   text-align: center;
   vertical-align: middle;
   margin-right: 40px;
+}
+
+.main-menu li:last-child {
+  margin-right: 0px;
 }
