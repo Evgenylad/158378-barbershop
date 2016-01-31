@@ -152,6 +152,7 @@ fieldset {
 .pagination {
   display: block;
   margin-top: 45px;
+  font-size: 0px;
 }
 
 .pagination li {
