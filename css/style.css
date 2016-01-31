@@ -4,6 +4,7 @@ body {
   color: #000000;
   font-weight: bold;
   line-height: 18px;
+  margin: 0px;
 }
 
 .main-menu li {
@@ -48,40 +49,35 @@ h1 {
 
 .main-header {
   background: #000000;
+  margin-bottom: 60px;
 }
 
 .container {
   width: 940px;
   padding: 0 10px;
   margin: 0 auto;
-  min-height: 70px;
 }
 
 .inner-page-logo {
   width: 140px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+  float: left;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .main-menu {
-  width: 540px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+  width: 620px;
+  float: left;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 40px;
+  margin-right: 20px;
+  font-size: 0px;
 }
 
 .user-block {
   width: 140px;
-  display: inline-block;
-  text-align: center;
-  vertical-align: middle;
+  float: right;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -98,13 +94,12 @@ h1 {
 }
 
 .container h1 {
-  width: 940px;
-  margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .breadcrumbs {
-  width: 940px;
-  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-left: 0px;
 }
 
 .breadcrumbs li {
@@ -116,7 +111,6 @@ h1 {
 .catalog-filter {
   float: left;
   width: 220px;
-  margin-top: 60px;
 }
 
 .filter-form {
@@ -130,14 +124,18 @@ fieldset {
 .catalog {
   float: right;
   width: 700px;
-  margin-top: 60px;
+  font-size: 0px;
 }
 
 .catalog-item {
   display: inline-block;
-  width: 210px;
+  width: 220px;
   margin-right: 20px;
   vertical-align: top;
+}
+
+.catalog-item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .catalog-item span {
@@ -150,8 +148,10 @@ fieldset {
 }
 
 .pagination {
-  float: right;
+  float: left;
   width: 700px;
+  margin-top: 45px;
+  font-size: 0px;
 }
 
 .pagination li {
@@ -159,7 +159,6 @@ fieldset {
   width: 43px;
   height: 43px;
   margin-right: 7px;
-  margin-top: 45px;
 }
 
 .main-footer {
@@ -195,22 +194,26 @@ fieldset {
   display: inline-block;
   width: 460px;
   text-align: left;
+  margin: 0px;
 }
 
-.preview-image {
+.preview-container {
+  font-size: 0px;
+}
+
+.preview-container a {
   display: inline-block;
   width: 140px;
   margin-right: 20px;
 }
 
-.preview-image:last-child {
+.preview-container a:last-child {
   margin-right: 0px;
 }
 
-.right-coulmn {
+.right-column {
   float: right;
-  width: 400px;
-  padding-left: 10px;
+  width: 390px;
 }
 
 .item-availability {

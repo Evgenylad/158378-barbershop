@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
-    <header class="main-header">
+    <header class="main-header clearfix">
 
       <div class="container">
 
@@ -48,24 +49,24 @@
         <form action="/" method="post">
           <fieldset>
             <legend>Производители:</legend>
-            <label class="filter-form-test"><input id="baxter" type="checkbox" checked> Baxter of california</label>
-            <input class="filter-form" id="natty" type="checkbox"> <label for="natty">Mr Natty</label>
-            <input class="filter-form" id="suavecito" type="checkbox" checked> <label for="suavecito">Suavecito</label>
-            <input class="filter-form" id="malin-goetz" type="checkbox"> <label for="malin-goetz">Malin+Goetz</label>
-            <input class="filter-form" id="murrays" type="checkbox"> <label for="murrays">Murray's</label>
-            <input class="filter-form" id="american-crew" type="checkbox" checked> <label for="american-crew">American Crew</label>
+            <label class="filter-form"><input id="baxter" type="checkbox" checked> Baxter of california</label>
+            <label class="filter-form"><input id="natty" type="checkbox">Mr Natty</label>
+            <label class="filter-form"><input id="suavecito" type="checkbox" checked>Suavecito</label>
+            <label class="filter-form"><input id="malin-goetz" type="checkbox">Malin+Goetz</label>
+            <label class="filter-form"><input id="murrays" type="checkbox">Murray's</label>
+            <label class="filter-form"><input id="american-crew" type="checkbox" checked>American Crew</label>
           </fieldset>
           <fieldset>
             <legend>Группы товаров:</legend>
-            <input class="filter-form" id="shaving_items" type="radio" name="radio"><label for="shaving_items">Бритвенные принадлежности</label>
-            <input class="filter-form" id="care_items" type="radio" name="radio" checked><label for="care_items">Средства для ухода</label>
-            <input class="filter-form" id="accessories" type="radio" name="radio"><label for="accessories">Аксессуары</label>
+            <label class="filter-form"><input id="shaving_items" type="radio" name="radio">Бритвенные принадлежности</label>
+            <label class="filter-form"><input id="care_items" type="radio" name="radio" checked>Средства для ухода</label>
+            <label class="filter-form"><input id="accessories" type="radio" name="radio">Аксессуары</label>
           </fieldset>
           <button class="btn" type="submit">Показать</button>
         </form>
       </aside>
 
-      <div class="catalog">
+      <div class="catalog clearfix">
 
         <article class="catalog-item">
           <a href="#"> <img src="img/baxter-travel-item.jpg" width="220px" height="165px" alt="Набор для путешествий Baxter of California"></a>
